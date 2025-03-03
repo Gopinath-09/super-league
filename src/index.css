@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+}
+
+.logo-clip-path{
+    clip-path: polygon(0% 0%,100% 0%,75% 100%, 25% 100%);
+}
+.clip-path-challanges{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
+}
+
+.bg-radial-challanges{
+    background: radial-gradient(#e9222952, transparent 70%);
+}
+.bg-radial-challanges2{
+    background: radial-gradient(#951b1f50 20%, transparent 70%);
+}
